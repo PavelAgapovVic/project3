@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  background-color: #222020;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    /* Блочная модель */
+  margin-bottom: 30px;
+
+  /* Типографика */
+  color: white;
+  font-family: 'GraphikLCG-Medium', sans-serif;
+}
+
+.dowload-programm {
+  /* Блочная модель */
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+  display: inline-block;
+}
+
+.learn-more {
+  /* Блочная модель */
+  padding: 20px;
+  display: inline-block;
+  border: 3px solid white;
+
+  /* Типографика */
+  color: white;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.return-link {
+  padding-left: 30px;
+  background-image: url("/img/return.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-family: 'Girloy Medium';
+}
+
+.main-title {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+h2.title {
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.list {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.text-paragraph {
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.table-teg{
+  margin-top: 100px;
+
+
+
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #a0a0a0;
+}
+th,td {
+  padding: 5px;
+  border: 1px solid #a0a0a0;
+}
+
+.images {
+  padding-left: 200px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+img{
+  width:100%;
+  max-width:400px;
+}
+
+
+.container-modules {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.modules {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0 auto;
+}
+
+.title-modules {
+  font-size: 48px;
+  font-family: 'Girloy ExtraBold';
+  padding-left: 23px;
+  color: #222020;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.child {
+  display: inline-block;
+  width: 480px;
+  height: 500px;
+  max-height: 800px;
+  min-height: 300px;
+  box-shadow: 3px 3px 20px 3px #e1e1e1;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #eaeaea;
+  font-family: 'Girloy Medium';
+}
+
+
+.right {
+  margin-right: 0;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.images-card {
+  display: inline-block;
+  max-width: 480px;
+  max-height: 176px;
+}
+
+.discription {
+  position: relative;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Girloy Regular';
+}
+
+.discription-title {
+  color: #2f1ce4;
+  font-size: 36px;
+  margin: 0;
+  font-family: 'Girloy ExtraBold';
+}
+
+p.discription-paragraph {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.btn-style {
+  /* Блочная модель */
+  padding: 20px;
+  display: inline-block;
+  border: 3px solid #2f1ce4;
+  width: 280px;
+  height: 80px;
+
+  /* Типографика */
+  color: #2f1ce4;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Girloy Regular';
+}
+
+.background-image {
+  background-image: url("/img/img-body2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 500px;
+  background-size: 1920px 1020px;
+}
